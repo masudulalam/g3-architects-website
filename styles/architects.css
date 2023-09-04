@@ -1,0 +1,9 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@400;500&family=Montserrat&family=Open+Sans:wght@400;800&family=Poppins:wght@500&family=Roboto&family=Work+Sans:wght@400;600;700&display=swap');
+
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
