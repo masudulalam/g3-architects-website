@@ -12,9 +12,12 @@
     border-radius: 8px;
     background-color: #FF900E;
     color: #FFF;
-    font-size: 1.25em;
+    font-size: 1.25rem;
+    font-weight: 600;
     width: 180px;
     height: 64px;
+    cursor: pointer;
+    border: 0;
 }
 
 /* header styles */
@@ -50,6 +53,9 @@ ul li a {
     color: #424242;
     font-size: 1rem;
 }
+.explore-btn{
+    margin: 30px 0;
+}
 
 /* banner styles */
 .banner-text-content {
@@ -66,4 +72,31 @@ ul li a {
 
 .banner-description {
     color: #727272;
+}
+
+.banner-image-content img{
+    width: 100%;
+}
+
+/* Responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* medium or tablet devices */
+@media screen and (min-width: 577px) and (max-width: 960px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
 }
