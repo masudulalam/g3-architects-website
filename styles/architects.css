@@ -1,9 +1,69 @@
 /* work sans font from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@400;500&family=Montserrat&family=Open+Sans:wght@400;800&family=Poppins:wght@500&family=Roboto&family=Work+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@400;500&family=Montserrat&family=Open+Sans:wght@400;800&family=Poppins:wght@500&family=Roboto&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
-
+/* Shared styles */
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFF;
+    font-size: 1.25em;
+    width: 180px;
+    height: 64px;
+}
+
+/* header styles */
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 1rem;
+}
+
+/* banner styles */
+.banner-text-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #727272;
 }
